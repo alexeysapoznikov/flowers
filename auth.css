@@ -1,0 +1,76 @@
+main {
+    width: 100%;
+    height: fit-content;
+}
+
+.main {
+    margin: auto;
+    width: 100%;
+    max-width: 1600px;
+    height: fit-content;
+    padding: 0px 20px 0px 20px;
+}
+
+.main h2 {
+    font-size: 37px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.categories {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories input {
+    border: none;
+    background-color: white;
+    border: 2px solid rgb(105, 127, 255);;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.categories input[type="text"] {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.categories button {
+    border: none;
+    margin-top: 50px;
+    width: 200px;
+    height: 45px;
+    font-size: 19px;
+    background: linear-gradient(45deg,rgba(105, 128, 255, 0),rgba(179, 78, 219, 0));
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.categories button:hover {
+    background-color: antiquewhite;
+}
+
+.categories a {
+    text-decoration: none;
+    color: silver;
+    transition: 0.2s;
+}
+
+.categories p {
+    margin: 20px;
+    color: black;
+    transition: 0.2s;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+    color: rgb(136, 54, 0);
+}

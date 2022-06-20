@@ -1,0 +1,53 @@
+main {
+    width: 100%;
+    height: fit-content;
+}
+
+.main {
+    margin: auto;
+    width: 100%;
+    max-width: 1600px;
+    height: fit-content;
+    padding: 0px 20px 0px 20px;
+}
+
+.main h2 {
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.admin-panel {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-post h2 {
+    margin-bottom: 20px;
+}
+
+.add-post input, select {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.add-post input[type="text"], select[type="text"] {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.add-post input[type="number"] {
+    padding: 10px;
+}
+
+.add-post button {
+    height: 50px;
+}
